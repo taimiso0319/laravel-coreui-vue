@@ -1,0 +1,10 @@
+// Here you can add other styles
+
+.card-columns {
+  @include media-breakpoint-only(md) {
+    column-count: 2;
+  }
+  @include media-breakpoint-between(lg,xl) {
+    column-count: 3;
+  }
+}
