@@ -1,3 +1,5 @@
+// Override Boostrap variables
+@import 'bootstrap-variables';
 // If you want to override variables do it here
 @import "variables";
 
@@ -5,6 +7,12 @@
 $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 $simple-line-font-path: '~simple-line-icons/fonts/';
 
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~simple-line-icons/css/simple-line-icons.css';
+@import '~animate.css/animate.min.css';
 // Import styles
 @import "~@coreui/coreui/scss/coreui";
 
@@ -12,10 +20,10 @@ $simple-line-font-path: '~simple-line-icons/fonts/';
 @import "custom";
 
 .card-header:not(.content-center) > .c-icon:first-child {
-  margin-right: 0.1rem;
-  margin-top: 0.1rem;
-  vertical-align: top;
-  width: 1.2rem;
-  height: 1.2rem;
-  font-size: 1.2rem;
+    margin-right: 0.1rem;
+    margin-top: 0.1rem;
+    vertical-align: top;
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: 1.2rem;
 }
